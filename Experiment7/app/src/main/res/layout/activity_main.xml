@@ -1,0 +1,8 @@
+<?xmlversion="1.0"encoding="utf-8"?>
+<RelativeLayoutxmlns:android="http://schemas.android.com/apk/res/android"android:id="@+id/relativeLayout1"android:layout_width="match_parent"android:layout_height="match_parent">
+<Buttonandroid:id="@+id/show_Location"android:layout_width="wrap_content"android:layout_height="wrap_contentandroid:text="Show_Location"android:layout_centerVertical="true"
+
+    android:layout_centerHorizontal="true"
+    />
+    </RelativeLayout>
+

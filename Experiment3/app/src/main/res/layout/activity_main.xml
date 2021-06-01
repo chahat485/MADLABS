@@ -1,0 +1,27 @@
+<?xmlversion="1.0"encoding="utf-8"?>
+<LinearLayoutxmlns:android="http://schemas.android.com/apk/res/android"android:orientation="vertical"android:layout_width="fill_parent"android:layout_height="fill_parent">
+<LinearLayoutandroid:layout_width="match_parent"android:layout_height="wrap_content"android:id="@+id/linearLayout1"android:layout_marginLeft="10pt"
+
+    android:layout_marginRight="10pt"android:layout_marginTop="3pt">
+<EditTextandroid:layout_weight="1"
+    android:layout_height="wrap_content"android:layout_marginRight="5pt"android:id="@+id/etNum1"android:layout_width="match_parent"android:inputType="numberDecimal">
+    </EditText>
+<EditTextandroid:layout_height="wrap_content"android:layout_weight="1"android:layout_marginLeft="5pt"android:id="@+id/etNum2"android:layout_width="match_parent"android:inputType="numberDecimal">
+    </EditText>
+    </LinearLayout>
+<LinearLayoutandroid:layout_width="match_parent"android:layout_height="wrap_content"android:id="@+id/linearLayout2"android:layout_marginTop="3pt"android:layout_marginLeft="5pt"android:layout_marginRight="5pt">
+<Buttonandroid:layout_height="wrap_content"android:layout_width="match_parent"android:layout_weight="1"android:text="+"android:textSize="15pt"android:id="@+id/btnAdd">
+    </Button>
+<Buttonandroid:layout_height="wrap_content"android:layout_width="match_parent"android:layout_weight="1"android:text="-"android:textSize="15pt"android:id="@+id/btnSub">
+    </Button>
+<Buttonandroid:layout_height="wrap_content"android:layout_width="match_parent"android:layout_weight="1"android:text="*"
+
+    android:textSize="15pt"android:id="@+id/btnMult">
+    </Button>
+<Buttonandroid:layout_height="wrap_content"android:layout_width="match_parent"android:layout_weight="1"android:text="/"android:textSize="15pt"android:id="@+id/btnDiv">
+    </Button>
+    </LinearLayout>
+<TextViewandroid:layout_height="wrap_content"android:layout_width="match_parent"android:layout_marginLeft="5pt"android:layout_marginRight="5pt"android:textSize="12pt"android:layout_marginTop="3pt"android:id="@+id/tvResult"android:gravity="center_horizontal">
+    </TextView>
+    </LinearLayout>
+

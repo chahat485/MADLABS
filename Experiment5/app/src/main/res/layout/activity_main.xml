@@ -1,0 +1,37 @@
+<?xmlversion="1.0"encoding="utf-8"?>
+<AbsoluteLayoutxmlns:android="http://schemas.android.com/apk/res/android"android:id="@+id/myLayout"
+    android:stretchColumns="0"android:layout_width="fill_parent"android:layout_height="fill_parent">
+<TextView android:text="@string/title"android:layout_x="110dp"android:layout_y="10dp"android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"/>
+<TextView android:text="@string/empid"android:layout_x="30dp"android:layout_y="50dp"android:layout_width="wrap_content"android:layout_height="wrap_content"/>
+<EditText android:id="@+id/editEmpid"android:inputType="number"android:layout_x="150dp"android:layout_y="50dp"android:layout_width="150dp"android:layout_height="40dp"/>
+<TextView android:text="@string/name"android:layout_x="30dp"android:layout_y="100dp"android:layout_width="wrap_content"android:layout_height="wrap_content"/>
+<EditText android:id="@+id/editName"android:inputType="text"android:layout_x="150dp"android:layout_y="100dp"android:layout_width="150dp"android:layout_height="40dp"/>
+<TextView android:text="@string/salary"android:layout_x="30dp"android:layout_y="150dp"android:layout_width="wrap_content"android:layout_height="wrap_content"/>
+<EditText android:id="@+id/editsalary"android:inputType="number"android:layout_x="150dp"android:layout_y="150dp"android:layout_width="150dp"android:layout_height="40dp"/>
+<Button android:id="@+id/btnAdd"android:text="@string/add"android:layout_x="30dp"android:layout_y="200dp"android:layout_width="130dp"android:layout_height="40dp"/>
+<Button android:id="@+id/btnDelete"android:text="@string/delete"android:layout_x="160dp"android:layout_y="200dp"android:layout_width="130dp"android:layout_height="40dp"/>n
+<Buttonandroid:id="@+id/btnModify"
+
+    android:text="@string/modify"android:layout_x="30dp"android:layout_y="250dp"android:layout_width="130dp"android:layout_height="40dp"/>
+<Buttonandroid:id="@+id/btnView"android:text="@string/view"android:layout_x="160dp"android:layout_y="250dp"android:layout_width="130dp"android:layout_height="40dp"/>
+<Button android:id="@+id/btnViewAll"android:text="@string/view_all"android:layout_x="85dp"android:layout_y="300dp"android:layout_width="150dp"android:layout_height="40dp"/>
+    </AbsoluteLayout>
+    //*Go to values folder and select string.xml file,Replace thecodebelow*//
+    <?xmlversion="1.0"encoding="utf-8"?>
+<resources>
+<stringname="app_name">Employeedetail1</string>
+<stringname="hello">HelloWorld,EmployeedetailActivity!</string>
+<stringname="title">EmployeeDetails</string>
+<stringname="empid">EnterEmployeeID:</string>
+<stringname="name">EnterName:</string>
+<stringname="salary">Entersalary:</string>
+<stringname="add">AddEmployee</string>
+<stringname="delete">DeleteEmployee</string>
+<stringname="modify">ModifyEmployee</string>
+<stringname="view">ViewEmployee</string>
+<stringname="view_all">ViewAllEmployee</string>
+    </resources>
+    //*Now select mainactivity.java file and type the followingcode.InmycodingmaniactivitynameisEmployeedetailActivity*//
+

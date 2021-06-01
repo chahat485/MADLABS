@@ -1,0 +1,31 @@
+<?xmlversion="1.0"encoding="utf-8"?>
+<RelativeLayoutxmlns:android="http://schemas.android.com/apk/res/android"android:id="@+id/relativeLayout1"android:layout_width="fill_parent"android:layout_height="fill_parent">
+<LinearLayoutandroid:id="@+id/linearLayout1"android:layout_width="wrap_content"android:layout_height="wrap_content"android:layout_alignParentLeft="true"
+
+    android:layout_alignParentRight="true"android:layout_alignParentTop="true">
+<TextViewandroid:layout_width="wrap_content"android:layout_height="wrap_content"android:layout_gravity="center"android:text="ADDITION"android:textSize="20dp">
+    </TextView>
+    </LinearLayout>
+<LinearLayoutandroid:id="@+id/linearLayout2"android:layout_width="wrap_content"android:layout_height="wrap_content"android:layout_alignParentLeft="true"android:layout_alignParentRight="true"android:layout_below="@+id/linearLayout1">
+<TextViewandroid:layout_width="wrap_content"android:layout_height="wrap_content"android:text="ENTERNO1">
+    </TextView>
+<EditTextandroid:layout_width="wrap_content"android:layout_height="wrap_content"android:layout_weight="0.20"android:id="@+id/edittext1"android:inputType="number">
+    </EditText>
+    </LinearLayout>
+<LinearLayoutandroid:id="@+id/linearLayout3"android:layout_width="wrap_content"android:layout_height="wrap_content"android:layout_alignParentLeft="true"android:layout_alignParentRight="true"android:layout_below="@+id/linearLayout2">
+<TextViewandroid:layout_width="wrap_content"android:layout_height="wrap_content"android:text="ENTERNO2">
+    </TextView>
+<EditTextandroid:layout_width="wrap_content"android:layout_height="wrap_content"android:layout_weight="0.20"android:id="@+id/edittext2"
+
+    android:inputType="number">
+    </EditText>
+    </LinearLayout>
+<LinearLayoutandroid:id="@+id/linearLayout4"android:layout_width="wrap_content"android:layout_height="wrap_content"android:layout_alignParentLeft="true"android:layout_alignParentRight="true"android:layout_below="@+id/linearLayout3">
+<Buttonandroid:layout_width="wrap_content"android:id="@+id/button1"android:layout_height="wrap_content"android:text="Addition"android:layout_weight="0.50"/>
+<Buttonandroid:layout_width="wrap_content"android:id="@+id/button3"android:layout_height="wrap_content"android:text="subtraction"android:layout_weight="0.50"/>
+<Buttonandroid:layout_width="wrap_content"android:id="@+id/button2"android:layout_height="wrap_content"android:text="CLEAR"android:layout_weight="0.50"/>
+    </LinearLayout>
+<Viewandroid:layout_height="2px"
+    android:layout_width="fill_parent"android:layout_below="@+id/linearLayout4"android:background="#DDFFDD"/>
+    </RelativeLayout>
+
